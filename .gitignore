@@ -8,3 +8,9 @@
 /GeoLib.Data/bin/
 /GeoLib.Data/obj/
 /packages
+/GeoLib.Contracts/bin/
+/GeoLib.Contracts/obj/
+/GeoLib.Services/bin/
+/GeoLib.Services/obj/
+/GeoLib.Test/bin/
+/GeoLib.Test/obj/
