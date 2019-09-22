@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/GeoLib/v15
+/GeoLib.Core/bin/
+/GeoLib.Core/obj/
+/GeoLib.Data/bin/
+/GeoLib.Data/obj/
+/packages
