@@ -20,3 +20,9 @@
 /GeoLib.WebHost/obj/
 /GeoLib.WindowsHost/bin/
 /GeoLib.WindowsHost/obj/Debug
+/.vs/GeoLib.Clients/v15
+/GeoLib.Client/bin/Debug
+/GeoLib.Client/obj/Debug
+/GeoLib.Proxies/.vs/GeoLib.Proxies/v15/Server/sqlite3
+/GeoLib.Proxies/bin/Debug
+/GeoLib.Proxies/obj/Debug
