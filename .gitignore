@@ -14,3 +14,9 @@
 /GeoLib.Services/obj/
 /GeoLib.Test/bin/
 /GeoLib.Test/obj/
+/GeoLib.ConsoleHost/bin/
+/GeoLib.ConsoleHost/obj/
+/GeoLib.WebHost/bin/
+/GeoLib.WebHost/obj/
+/GeoLib.WindowsHost/bin/
+/GeoLib.WindowsHost/obj/Debug

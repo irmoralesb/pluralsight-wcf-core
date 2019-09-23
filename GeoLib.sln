@@ -13,6 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Services", "GeoLib.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Test", "GeoLib.Test\GeoLib.Test.csproj", "{F33768D9-77C7-4F6B-9B66-623AACBE1473}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{BD301D94-B2C4-4C06-B0ED-C0A31A7CEAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.ConsoleHost", "GeoLib.ConsoleHost\GeoLib.ConsoleHost.csproj", "{96C6268A-7F04-4C34-8266-A76CD1EF3A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.WebHost", "GeoLib.WebHost\GeoLib.WebHost.csproj", "{CD1A8886-2F10-4676-8BEB-3AC38122D125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.WindowsHost", "GeoLib.WindowsHost\GeoLib.WindowsHost.csproj", "{1C23C49F-C45E-4452-9FDC-3DF08F46AB77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +47,26 @@ Global
 		{F33768D9-77C7-4F6B-9B66-623AACBE1473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33768D9-77C7-4F6B-9B66-623AACBE1473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33768D9-77C7-4F6B-9B66-623AACBE1473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C6268A-7F04-4C34-8266-A76CD1EF3A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C6268A-7F04-4C34-8266-A76CD1EF3A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C6268A-7F04-4C34-8266-A76CD1EF3A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C6268A-7F04-4C34-8266-A76CD1EF3A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1A8886-2F10-4676-8BEB-3AC38122D125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1A8886-2F10-4676-8BEB-3AC38122D125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1A8886-2F10-4676-8BEB-3AC38122D125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1A8886-2F10-4676-8BEB-3AC38122D125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C23C49F-C45E-4452-9FDC-3DF08F46AB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C23C49F-C45E-4452-9FDC-3DF08F46AB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C23C49F-C45E-4452-9FDC-3DF08F46AB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C23C49F-C45E-4452-9FDC-3DF08F46AB77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96C6268A-7F04-4C34-8266-A76CD1EF3A42} = {BD301D94-B2C4-4C06-B0ED-C0A31A7CEAFD}
+		{CD1A8886-2F10-4676-8BEB-3AC38122D125} = {BD301D94-B2C4-4C06-B0ED-C0A31A7CEAFD}
+		{1C23C49F-C45E-4452-9FDC-3DF08F46AB77} = {BD301D94-B2C4-4C06-B0ED-C0A31A7CEAFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9ABDD32-CE0C-43C1-BCF6-E53E6CBDB995}
